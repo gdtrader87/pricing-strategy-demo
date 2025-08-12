@@ -8,7 +8,8 @@ the resulting dashboard will have a polished Material aesthetic.
 To view the dashboard, install the required libraries (panel, hvplot,
 pandas, numpy) and run:
 
-    panel serve panel_dashboard_example.py --autoreload
+    panel serve panutoreload
+    
 
 Then open the provided local URL in your web browser.
 """
@@ -54,3 +55,4 @@ def build_dashboard() -> pn.Column:
 # and displays them. Calling build_dashboard() here registers the dashboard.
 dashboard = build_dashboard()
 dashboard.servable()
+
